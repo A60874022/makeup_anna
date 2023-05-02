@@ -5,6 +5,6 @@ from . import views
 app_name = 'feedback'
 
 urlpatterns = [
-    path('', views.gallery, name='feed'),
+    path('', views.feedback, name='feed'),
     path('customer', views.customer, name='customer'),
 ]

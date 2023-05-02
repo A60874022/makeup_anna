@@ -14,7 +14,7 @@ SECRET_KEY = (
     )
 )
 
-DEBUG = os.getenv('DEBUG', default='False') == 'True'
+DEBUG = True#os.getenv('DEBUG', default='False') == 'True'
 
 ALLOWED_HOSTS = [
     'localhost',
