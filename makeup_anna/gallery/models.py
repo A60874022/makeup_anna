@@ -75,6 +75,3 @@ class Gallery(models.Model):
         ordering = ('-pub_date',)
         verbose_name = 'Фото'
         verbose_name_plural = 'Фото'
-
-    def __str__(self):
-        return self.image

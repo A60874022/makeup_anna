@@ -38,7 +38,7 @@ def feedback(request):
     return render(request, 'base.html', {'form': form})
 
 
-@login_required
+#@login_required
 def customer(request):
     client = Feedback.objects.order_by('-created_at')[:NUMBER_OF_ENTRIES]
     context = {
